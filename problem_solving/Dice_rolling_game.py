@@ -21,6 +21,7 @@ while True:
         die1 = random.randint(1, 6)
         die2 = random.randint(1, 6)
         print(f'the random numbers are: {(die1, die2)}')
+        print(f'Your scor is: {die1 + die2}') #added score calculation
     elif choice == 'n':
         print('thanks for playing')
         break
